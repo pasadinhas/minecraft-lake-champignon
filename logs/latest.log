@@ -1,0 +1,121 @@
+[20:34:53] [main/INFO]: Loading for game Minecraft 1.17
+[20:34:53] [main/WARN]: Warnings were found! 
+ - Conflicting versions found for fabric-api-base: used 0.3.0+a02b4463d5, also found 0.3.0+a02b44633d
+ - Conflicting versions found for fabric-rendering-data-attachment-v1: used 0.1.5+a02b4463d5, also found 0.1.5+a02b44633d
+ - Mod 'LambDynamicLights' (lambdynlights) recommends version 2.0.0-beta7 or later of mod modmenu, which is missing!
+	 - You must install version 2.0.0-beta7 or later of modmenu.
+ - Conflicting versions found for fabric-rendering-fluids-v1: used 0.1.13+a02b4463d5, also found 0.1.13+a02b44633d
+[20:34:53] [main/INFO]: [FabricLoader] Loading 54 mods:
+	- fabric@0.36.0+1.17
+	- fabric-api-base@0.3.0+a02b4463d5
+	- fabric-api-lookup-api-v1@1.2.0+2b5c62d03d
+	- fabric-biome-api-v1@3.1.11+c345aea83d
+	- fabric-blockrenderlayer-v1@1.1.5+a02b44633d
+	- fabric-command-api-v1@1.1.1+a02b44633d
+	- fabric-commands-v0@0.2.2+92519afa3d
+	- fabric-containers-v0@0.1.12+a02b44633d
+	- fabric-content-registries-v0@0.2.2+a02b44633d
+	- fabric-crash-report-info-v1@0.1.5+be9da3103d
+	- fabric-dimensions-v1@2.0.10+a02b44633d
+	- fabric-entity-events-v1@1.1.0+a02b44633d
+	- fabric-events-interaction-v0@0.4.9+a722d8c03d
+	- fabric-events-lifecycle-v0@0.2.1+92519afa3d
+	- fabric-game-rule-api-v1@1.0.6+a02b44633d
+	- fabric-item-api-v1@1.2.4+a02b44633d
+	- fabric-item-groups-v0@0.2.10+b7ab61213d
+	- fabric-key-binding-api-v1@1.0.4+a02b44633d
+	- fabric-keybindings-v0@0.2.2+36b77c3e3d
+	- fabric-lifecycle-events-v1@1.4.4+a02b44633d
+	- fabric-loot-tables-v1@1.0.4+a02b44633d
+	- fabric-mining-levels-v0@0.1.3+92519afa3d
+	- fabric-models-v0@0.3.0+a02b44633d
+	- fabric-networking-api-v1@1.0.11+b7ab61213d
+	- fabric-networking-blockentity-v0@0.2.11+a02b44633d
+	- fabric-networking-v0@0.3.2+92519afa3d
+	- fabric-object-builder-api-v1@1.10.9+b7ab61213d
+	- fabric-object-builders-v0@0.7.3+a02b44633d
+	- fabric-particles-v1@0.2.4+a02b44633d
+	- fabric-registry-sync-v0@0.7.10+e2961fee3d
+	- fabric-renderer-api-v1@0.4.3+676f40fa3d
+	- fabric-renderer-indigo@0.4.8+a02b44633d
+	- fabric-renderer-registries-v1@3.2.0+a02b44633d
+	- fabric-rendering-data-attachment-v1@0.1.5+a02b4463d5
+	- fabric-rendering-fluids-v1@0.1.13+a02b4463d5
+	- fabric-rendering-v0@1.1.2+92519afa3d
+	- fabric-rendering-v1@1.6.0+a02b44633d
+	- fabric-resource-loader-v0@0.4.7+b7ab61213d
+	- fabric-screen-api-v1@1.0.4+155f865c3d
+	- fabric-screen-handler-api-v1@1.1.8+a02b44633d
+	- fabric-structure-api-v1@1.1.11+e36969833d
+	- fabric-tag-extensions-v0@1.1.4+a02b44633d
+	- fabric-textures-v0@1.0.6+a02b44633d
+	- fabric-tool-attribute-api-v1@1.2.12+b7ab61213d
+	- fabricloader@0.11.6
+	- java@16
+	- lambdynlights@2.0.1+1.17
+	- lithium@0.7.2
+	- minecraft@1.17
+	- org_aperlambda_lambdajcommon@1.8.1
+	- sodium@0.3.0+build.469
+	- spruceui@3.2.0+1.17
+	- xaerominimap@21.15.1
+	- xaeroworldmap@1.16.1
+[20:34:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/migue/Documents/Minecraft/lake-champignon/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[20:34:54] [main/INFO]: Compatibility level set to JAVA_16
+[20:34:54] [main/INFO]: Loaded configuration file for Lithium: 79 options available, 0 override(s) found
+[20:34:54] [main/WARN]: @Mixin target net/minecraft/class_3218$class_5526 is public in fabric-lifecycle-events-v1.mixins.json:ServerWorldEntityLoaderMixin and should be specified in value
+[20:34:54] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
+[20:34:54] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
+[20:35:01] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[20:35:01] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[20:35:01] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[20:35:02] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 3.747 ms
+[20:35:02] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:35:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:35:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:35:02] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:35:02] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:35:02] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:35:02] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1)), VanillaTweaks_c647781.zip, anti enderman grief v1.1.0.zip, coordinates hud v1.2.0.zip, durability ping v1.1.0.zip, kill empty boats v1.1.1.zip, more mob heads v2.9.1.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, wandering trades hermit edition v1.5.0.zip
+[20:35:04] [Worker-Main-14/INFO]: Loaded 7 recipes
+[20:35:04] [Worker-Main-14/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[2].entries[0]: Unknown loot table called minecraft:entities/reference/extra/shulker
+[20:35:04] [Worker-Main-14/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[20:35:05] [Worker-Main-14/INFO]: Loaded 1219 advancements
+[20:35:06] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[20:35:07] [Server thread/INFO]: Starting minecraft server version 1.17
+[20:35:07] [Server thread/INFO]: Loading properties
+[20:35:07] [Server thread/INFO]: Default game type: SURVIVAL
+[20:35:07] [Server thread/INFO]: Generating keypair
+[20:35:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:35:07] [Server thread/INFO]: Using default channel type
+[20:35:08] [Server thread/INFO]: Preparing level "lake-champignon"
+[20:35:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:35:09] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[20:35:09] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[20:35:09] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[20:35:10] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[20:35:10] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[20:35:14] [Worker-Main-11/INFO]: Preparing spawn area: 10%
+[20:35:14] [Worker-Main-10/INFO]: Preparing spawn area: 10%
+[20:35:14] [Worker-Main-10/INFO]: Preparing spawn area: 10%
+[20:35:14] [Worker-Main-10/INFO]: Preparing spawn area: 10%
+[20:35:14] [Worker-Main-13/INFO]: Preparing spawn area: 10%
+[20:35:14] [Worker-Main-14/INFO]: Preparing spawn area: 10%
+[20:35:14] [Worker-Main-14/INFO]: Preparing spawn area: 10%
+[20:35:14] [Server thread/INFO]: Time elapsed: 5969 ms
+[20:35:14] [Server thread/INFO]: Done (6.214s)! For help, type "help"
+[20:35:14] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[20:35:14] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[20:37:27] [Server thread/INFO]: Stopping the server
+[20:37:27] [Server thread/INFO]: Stopping server
+[20:37:27] [Server thread/INFO]: Saving players
+[20:37:27] [Server thread/INFO]: Saving worlds
+[20:37:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lake-champignon]'/minecraft:overworld
+[20:37:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (lake-champignon): All chunks are saved
+[20:37:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lake-champignon]'/minecraft:the_nether
+[20:37:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:37:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lake-champignon]'/minecraft:the_end
+[20:37:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:37:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (lake-champignon): All chunks are saved
+[20:37:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:37:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
