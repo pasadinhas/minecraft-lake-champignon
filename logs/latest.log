@@ -1,11 +1,11 @@
-[22:59:18] [main/INFO]: Loading for game Minecraft 1.17
-[22:59:18] [main/WARN]: Warnings were found! 
+[00:58:57] [main/INFO]: Loading for game Minecraft 1.17
+[00:58:57] [main/WARN]: Warnings were found! 
  - Conflicting versions found for fabric-api-base: used 0.3.0+a02b4463d5, also found 0.3.0+a02b44633d
  - Conflicting versions found for fabric-rendering-data-attachment-v1: used 0.1.5+a02b4463d5, also found 0.1.5+a02b44633d
  - Mod 'LambDynamicLights' (lambdynlights) recommends version 2.0.0-beta7 or later of mod modmenu, which is missing!
 	 - You must install version 2.0.0-beta7 or later of modmenu.
  - Conflicting versions found for fabric-rendering-fluids-v1: used 0.1.13+a02b4463d5, also found 0.1.13+a02b44633d
-[22:59:18] [main/INFO]: [FabricLoader] Loading 54 mods:
+[00:58:57] [main/INFO]: [FabricLoader] Loading 54 mods:
 	- fabric@0.36.0+1.17
 	- fabric-api-base@0.3.0+a02b4463d5
 	- fabric-api-lookup-api-v1@1.2.0+2b5c62d03d
@@ -60,66 +60,72 @@
 	- spruceui@3.2.0+1.17
 	- xaerominimap@21.15.1
 	- xaeroworldmap@1.16.1
-[22:59:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/bukjir/minecraft_lake/minecraft-lake-champignon/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
-[22:59:18] [main/INFO]: Compatibility level set to JAVA_16
-[22:59:18] [main/INFO]: Loaded configuration file for Lithium: 79 options available, 0 override(s) found
-[22:59:18] [main/WARN]: @Mixin target net/minecraft/class_3218$class_5526 is public in fabric-lifecycle-events-v1.mixins.json:ServerWorldEntityLoaderMixin and should be specified in value
-[22:59:18] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
-[22:59:18] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
-[22:59:24] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[22:59:24] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[22:59:24] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[22:59:25] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 2.635 ms
-[22:59:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:59:26] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:59:26] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:59:26] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:59:26] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:59:26] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:59:26] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1)), VanillaTweaks_c647781.zip, anti enderman grief v1.1.0.zip, coordinates hud v1.2.0.zip, durability ping v1.1.0.zip, kill empty boats v1.1.1.zip, more mob heads v2.9.1.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, wandering trades hermit edition v1.5.0.zip
-[22:59:28] [Worker-Main-8/INFO]: Loaded 7 recipes
-[22:59:28] [Worker-Main-8/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[2].entries[0]: Unknown loot table called minecraft:entities/reference/extra/shulker
-[22:59:28] [Worker-Main-8/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[22:59:29] [Worker-Main-8/INFO]: Loaded 1219 advancements
-[22:59:30] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[22:59:31] [Server thread/INFO]: Starting minecraft server version 1.17
-[22:59:31] [Server thread/INFO]: Loading properties
-[22:59:31] [Server thread/INFO]: Default game type: SURVIVAL
-[22:59:31] [Server thread/INFO]: Generating keypair
-[22:59:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:59:32] [Server thread/INFO]: Using default channel type
-[22:59:32] [Server thread/INFO]: Preparing level "lake-champignon"
-[22:59:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:59:33] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[22:59:33] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[22:59:33] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[22:59:34] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[22:59:34] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[22:59:35] [Worker-Main-14/INFO]: Preparing spawn area: 5%
-[22:59:35] [Worker-Main-9/INFO]: Preparing spawn area: 10%
-[22:59:36] [Worker-Main-10/INFO]: Preparing spawn area: 24%
-[22:59:36] [Worker-Main-9/INFO]: Preparing spawn area: 50%
-[22:59:40] [Worker-Main-11/INFO]: Preparing spawn area: 53%
-[22:59:40] [Worker-Main-9/INFO]: Preparing spawn area: 53%
-[22:59:40] [Worker-Main-11/INFO]: Preparing spawn area: 53%
-[22:59:40] [Worker-Main-9/INFO]: Preparing spawn area: 53%
-[22:59:40] [Worker-Main-11/INFO]: Preparing spawn area: 53%
-[22:59:40] [Worker-Main-11/INFO]: Preparing spawn area: 53%
-[22:59:40] [Worker-Main-8/INFO]: Preparing spawn area: 53%
-[22:59:41] [Server thread/INFO]: Time elapsed: 8191 ms
-[22:59:41] [Server thread/INFO]: Done (8.442s)! For help, type "help"
-[22:59:41] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[22:59:41] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[22:59:50] [Server thread/INFO]: Stopping the server
-[22:59:50] [Server thread/INFO]: Stopping server
-[22:59:50] [Server thread/INFO]: Saving players
-[22:59:50] [Server thread/INFO]: Saving worlds
-[22:59:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lake-champignon]'/minecraft:overworld
-[22:59:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (lake-champignon): All chunks are saved
-[22:59:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lake-champignon]'/minecraft:the_nether
-[22:59:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:59:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lake-champignon]'/minecraft:the_end
-[22:59:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:59:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (lake-champignon): All chunks are saved
-[22:59:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:59:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:58:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/migue/Documents/Minecraft/lake-champignon/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[00:58:57] [main/INFO]: Compatibility level set to JAVA_16
+[00:58:57] [main/INFO]: Loaded configuration file for Lithium: 79 options available, 0 override(s) found
+[00:58:58] [main/WARN]: @Mixin target net/minecraft/class_3218$class_5526 is public in fabric-lifecycle-events-v1.mixins.json:ServerWorldEntityLoaderMixin and should be specified in value
+[00:58:58] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
+[00:58:58] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
+[00:59:03] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[00:59:03] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[00:59:03] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[00:59:04] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 2.864 ms
+[00:59:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:59:04] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:59:04] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:59:04] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:59:04] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[00:59:04] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[00:59:04] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1)), VanillaTweaks_c647781.zip, anti enderman grief v1.1.0.zip, coordinates hud v1.2.0.zip, durability ping v1.1.0.zip, kill empty boats v1.1.1.zip, more mob heads v2.9.1.zip, nether portal coords v1.1.0.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, wandering trades hermit edition v1.5.0.zip
+[00:59:06] [Worker-Main-12/INFO]: Loaded 7 recipes
+[00:59:06] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[2].entries[0]: Unknown loot table called minecraft:entities/reference/extra/shulker
+[00:59:06] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[00:59:06] [Worker-Main-12/INFO]: Loaded 1219 advancements
+[00:59:07] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[00:59:08] [Server thread/INFO]: Starting minecraft server version 1.17
+[00:59:08] [Server thread/INFO]: Loading properties
+[00:59:08] [Server thread/INFO]: Default game type: SURVIVAL
+[00:59:08] [Server thread/INFO]: Generating keypair
+[00:59:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:59:08] [Server thread/INFO]: Using default channel type
+[00:59:09] [Server thread/INFO]: Preparing level "lake-champignon"
+[00:59:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:59:09] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[00:59:09] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[00:59:10] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[00:59:10] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[00:59:11] [Worker-Main-10/INFO]: Preparing spawn area: 9%
+[00:59:14] [Worker-Main-11/INFO]: Preparing spawn area: 22%
+[00:59:14] [Worker-Main-10/INFO]: Preparing spawn area: 22%
+[00:59:14] [Worker-Main-11/INFO]: Preparing spawn area: 22%
+[00:59:14] [Worker-Main-10/INFO]: Preparing spawn area: 22%
+[00:59:14] [Worker-Main-10/INFO]: Preparing spawn area: 22%
+[00:59:14] [Worker-Main-11/INFO]: Preparing spawn area: 22%
+[00:59:14] [Worker-Main-11/INFO]: Preparing spawn area: 50%
+[00:59:15] [Server thread/INFO]: Time elapsed: 5861 ms
+[00:59:15] [Server thread/INFO]: Done (6.107s)! For help, type "help"
+[00:59:15] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[00:59:15] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[01:01:31] [User Authenticator #1/INFO]: UUID of player pasadinhas is b9669fc1-c7b5-408a-a1c3-b78aa3e16e55
+[01:01:31] [Server thread/INFO]: pasadinhas[/127.0.0.1:52689] logged in with entity id 66 at (-137.11104358108946, 57.0, 268.56631609574384)
+[01:01:31] [Server thread/INFO]: pasadinhas joined the game
+[01:15:19] [Server thread/INFO]: pasadinhas was slain by Zombified Piglin
+[01:28:06] [Server thread/INFO]: pasadinhas lost connection: Disconnected
+[01:28:06] [Server thread/INFO]: pasadinhas left the game
+[01:28:17] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[01:28:17] [Server thread/INFO]: exit<--[HERE]
+[01:28:21] [Server thread/INFO]: Saving the game (this may take a moment!)
+[01:28:21] [Server thread/INFO]: Saved the game
+[01:28:23] [Server thread/INFO]: Stopping the server
+[01:28:23] [Server thread/INFO]: Stopping server
+[01:28:23] [Server thread/INFO]: Saving players
+[01:28:23] [Server thread/INFO]: Saving worlds
+[01:28:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lake-champignon]'/minecraft:overworld
+[01:28:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (lake-champignon): All chunks are saved
+[01:28:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lake-champignon]'/minecraft:the_nether
+[01:28:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:28:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lake-champignon]'/minecraft:the_end
+[01:28:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:28:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (lake-champignon): All chunks are saved
+[01:28:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:28:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

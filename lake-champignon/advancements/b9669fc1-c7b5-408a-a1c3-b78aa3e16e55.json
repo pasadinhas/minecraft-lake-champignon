@@ -1341,9 +1341,11 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2021-08-22 11:21:11 +0100",
+      "minecraft:jungle_edge": "2021-12-04 01:17:18 +0000",
       "minecraft:forest": "2021-06-21 12:35:52 +0100",
       "minecraft:mushroom_fields": "2021-06-21 13:31:02 +0100",
       "minecraft:mountains": "2021-07-03 14:21:53 +0100",
+      "minecraft:taiga": "2021-12-04 01:18:00 +0000",
       "minecraft:desert_hills": "2021-08-22 11:22:52 +0100",
       "minecraft:deep_cold_ocean": "2021-08-22 11:21:17 +0100",
       "minecraft:desert": "2021-07-03 14:22:37 +0100",
